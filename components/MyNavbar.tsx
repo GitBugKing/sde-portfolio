@@ -65,9 +65,9 @@ function NavList() {
                 color="white"
                 className="p-1 font-bold text-xl"
             >
-                <a href="#skill" className="flex items-center hover:text-blue-500 transition-colors"
+                <a href="#experience" className="flex items-center hover:text-blue-500 transition-colors"
                     onClick={adjustScroll}>
-                    Skill
+                    Experience
                 </a>
             </Typography>
             <Typography
@@ -76,9 +76,9 @@ function NavList() {
                 color="white"
                 className="p-1 font-bold text-xl"
             >
-                <a href="#experience" className="flex items-center hover:text-blue-500 transition-colors"
+                <a href="#skill" className="flex items-center hover:text-blue-500 transition-colors"
                     onClick={adjustScroll}>
-                    Experience
+                    Skill
                 </a>
             </Typography>
         </ul>
