@@ -14,55 +14,71 @@ const SkillCard = () => {
             image: "/react-logo.png"
         }, {
             id: 3,
-            name: "TypeScript",
-            image: "/ts.png"
+            name: "Tailwind",
+            image: "/tailwind.png"
         }, {
             id: 4,
             name: "JavaScript",
             image: "/js.png"
         }, {
             id: 5,
-            name: "Node.js",
-            image: "/node.png"
+            name: "HTML",
+            image: "/html.png"
         }, {
             id: 6,
-            name: "Redux (Toolkit)",
-            image: "/redux-icon.png"
+            name: "CSS",
+            image: "/css.png"
+        }, {
+            id: 7,
+            name: "MUI",
+            image: "/Material UI.png"
+        }, {
+            id: 8,
+            name: "Figma",
+            image: "/Figma.png"
         }
     ];
     const skills2 = [
         {
             id: 1,
-            name: "HTML",
-            image: "/html.png"
-        }, {
-            id: 2,
-            name: "CSS",
-            image: "/css.png"
-        }, {
-            id: 3,
-            name: "SASS",
-            image: "/sass.png"
-        }, {
-            id: 4,
-            name: "Tailwind",
-            image: "/tailwind.png"
-        }, {
-            id: 5,
-            name: "Express.js",
-            image: "/express.png"
-        }, {
-            id: 6,
-            name: "Python",
-            image: "/python.png"
-        }, {
-            id: 7,
             name: "Java",
             image: "/java.png"
         }, {
+            id: 2,
+            name: "Spring",
+            image: "/Spring.png"
+        }, {
+            id: 3,
+            name: "MySQL",
+            image: "/MySQL.png"
+        }, {
+            id: 4,
+            name: "AWS",
+            image: "/AWS.png"
+        }, {
+            id: 5,
+            name: "Docker",
+            image: "/Docker.png"
+        }, {
+            id: 6,
+            name: "Apache Tomcat",
+            image: "/Apache Tomcat.png"
+        }, {
+            id: 7,
+            name: "Kubernetes",
+            image: "/Kubernetes.png"
+        }, {
             id: 8,
-            name: "Github",
-            image: "/git-logo.svg"
+            name: "Git",
+            image: "/Git.png"
+        }, {
+            id: 9,
+            name: "Python",
+            image: "/python.png"
+        }, {
+            id: 10,
+            name: "RabbitMQ",
+            image: "/RabbitMQ.png"
         }
     ];
 

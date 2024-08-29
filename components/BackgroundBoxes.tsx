@@ -25,7 +25,7 @@ export function BackgroundBoxes() {
             <div className={"w-full h-full flex items-center justify-center"} >
                 <div className={"w-3/5 flex flex-col justify-start z-10 gap-12"}>
                     <FlipWordsDemo />
-                    <a href="Software Engineer.pdf" download>
+                    <a href="Software Engineer(Vincent).pdf" download>
                         <Button className="w-48">
                             Download Resume
                         </Button>
