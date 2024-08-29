@@ -7,7 +7,9 @@ import {
     IconButton,
 } from "@material-tailwind/react";
 
-export {Navbar,
+export {
+    Navbar,
     Collapse,
     Typography,
-    IconButton,};
+    IconButton,
+};

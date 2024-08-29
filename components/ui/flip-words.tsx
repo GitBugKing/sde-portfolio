@@ -4,10 +4,10 @@ import { AnimatePresence, motion, LayoutGroup } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 export const FlipWords = ({
-                              words,
-                              duration = 3000,
-                              className,
-                          }: {
+    words,
+    duration = 3000,
+    className,
+}: {
     words: string[];
     duration?: number;
     className?: string;

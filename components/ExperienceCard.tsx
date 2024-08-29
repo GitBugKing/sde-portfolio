@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
-import {InfiniteMovingCards} from "@/components/ui/infinite-moving-cards";
-import {TypewriterEffectSmooth} from "@/components/ui/typewrter-effect";
+import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
+import { TypewriterEffectSmooth } from "@/components/ui/typewrter-effect";
 
 const testimonials = [
     {
@@ -24,8 +24,8 @@ const testimonials = [
     },
     {
         quote:
-            ['● Managed BI dashboards showcase goverment key metrics, supporting management adjustment.',
-             '● Established data warehouses to ensure data consistency from business systems to dashboards, meeting the goverment data standards.'],
+            ['● Managed BI dashboards showcase government key metrics, supporting management adjustment.',
+                '● Established data warehouses to ensure data consistency from business systems to dashboards, meeting the government data standards.'],
         name: "BI Engineer, Huaxia Diantong IT, Beijing",
         title: "Jun, 2019 - Oct, 2019",
     },
@@ -37,7 +37,7 @@ const testimonials = [
     }
 ];
 
-const words = [{text: "Experience"}]
+const words = [{ text: "Experience" }]
 
 const ExperienceCard = () => {
     return (
@@ -45,9 +45,9 @@ const ExperienceCard = () => {
             className="relative w-full mt-16 flex flex-col items-center"
             id="experience"
         >
-            <TypewriterEffectSmooth words={words}/>
+            <TypewriterEffectSmooth words={words} />
             <p className="text-neutral-500 text-sm w-1/2 mb-4 mt-8 dark:text-neutral-300">
-            I have over 7 years of professional experience as a software engineer, with expertise in data integration and web development across the Financial, Government, Entertainment, and Consumer industries.
+                I have over 7 years of professional experience as a software engineer, with expertise in data integration and web development across the Financial, Government, Entertainment, and Consumer industries.
             </p>
             <InfiniteMovingCards
                 items={testimonials}

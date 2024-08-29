@@ -5,10 +5,10 @@ import { motion, stagger, useAnimate, useInView } from "framer-motion";
 import { useEffect } from "react";
 
 export const TypewriterEffect = ({
-                                     words,
-                                     className,
-                                     cursorClassName,
-                                 }: {
+    words,
+    className,
+    cursorClassName,
+}: {
     words: {
         text: string;
         className?: string;
@@ -99,10 +99,10 @@ export const TypewriterEffect = ({
 };
 
 export const TypewriterEffectSmooth = ({
-                                           words,
-                                           className,
-                                           cursorClassName,
-                                       }: {
+    words,
+    className,
+    cursorClassName,
+}: {
     words: {
         text: string;
         className?: string;
@@ -128,8 +128,8 @@ export const TypewriterEffectSmooth = ({
                                     key={`char-${index}`}
                                     className={cn(`dark:text-white text-black `, word.className)}
                                 >
-                  {char}
-                </span>
+                                    {char}
+                                </span>
                             ))}
                             &nbsp;
                         </div>

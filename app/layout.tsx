@@ -6,7 +6,7 @@ import {ThemeProvider} from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Welcome To My Code Playground | Edward Li",
+  title: "Welcome To My Portfolop Site | Vincent Liu",
   description: "My Coding Chronicles",
 };
 

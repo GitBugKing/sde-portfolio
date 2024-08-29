@@ -1,4 +1,3 @@
-import NavBar from "@/components/NavBar";
 import {BackgroundBoxes} from "@/components/BackgroundBoxes";
 import EducationCard from "@/components/EducationCard";
 import ProjectCard from "@/components/ProjectCard";

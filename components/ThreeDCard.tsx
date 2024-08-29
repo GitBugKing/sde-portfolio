@@ -5,7 +5,7 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
 
-export function ThreeDCardDemo({img , pro}:{img: string, pro: object}) {
+export function ThreeDCardDemo({ img, pro }: { img: string, pro: object }) {
     const info: {
         title: string,
         desc: string,

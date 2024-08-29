@@ -10,8 +10,8 @@ import {
 } from "framer-motion";
 
 export const AnimatedTooltip = ({
-                                    items,
-                                }: {
+    items,
+}: {
     items: {
         id: number;
         name: string;

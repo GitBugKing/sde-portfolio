@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
-import {FlipWordsDemo} from "@/components/Flipwords";
+import { FlipWordsDemo } from "@/components/Flipwords";
 import Image from "next/image";
-import {SparklesCore} from "@/components/ui/sparles";
-import {Button} from "@/components/ui/button";
+import { SparklesCore } from "@/components/ui/sparles";
+import { Button } from "@/components/ui/button";
 
 export function BackgroundBoxes() {
     return (
@@ -24,15 +24,15 @@ export function BackgroundBoxes() {
             </div>
             <div className={"w-full h-full flex items-center justify-center"} >
                 <div className={"w-3/5 flex flex-col justify-start z-10 gap-12"}>
-                    <FlipWordsDemo/>
+                    <FlipWordsDemo />
                     <a href="Software Engineer.pdf" download>
                         <Button className="w-48">
                             Download Resume
                         </Button>
                     </a>
-            </div>
+                </div>
                 <div className={"w-60 h-60 rounded-full flex justify-center items-center z-10"}>
-                    <Image src="/profile2.jpg" alt="logo" width={800} height={800} className={"rounded-full"}/>
+                    <Image src="/profile2.jpg" alt="logo" width={800} height={800} className={"rounded-full"} />
                 </div>
             </div>
         </div>

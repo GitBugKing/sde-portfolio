@@ -12,10 +12,10 @@ import Image from "next/image";
 
 function NavList() {
     // @ts-ignore
-    const adjustScroll= (event) => {
+    const adjustScroll = (event) => {
         event.preventDefault();
         const ele = document.getElementById(event.target.href.split("#")[1]);
-        if(ele){
+        if (ele) {
             const yOffset = -150;
             const yPosition = ele.getBoundingClientRect().top + window.scrollY + yOffset;
             window.scrollTo({
@@ -44,7 +44,7 @@ function NavList() {
                 className="p-1 font-bold text-xl"
             >
                 <a href="#project" className="flex items-center hover:text-blue-500 transition-colors"
-                   onClick={adjustScroll}>
+                    onClick={adjustScroll}>
                     Project
                 </a>
             </Typography>
@@ -55,7 +55,7 @@ function NavList() {
                 className="p-1 font-bold text-xl"
             >
                 <a href="#education" className="flex items-center hover:text-blue-500 transition-colors"
-                   onClick={adjustScroll}>
+                    onClick={adjustScroll}>
                     Education
                 </a>
             </Typography>
@@ -66,7 +66,7 @@ function NavList() {
                 className="p-1 font-bold text-xl"
             >
                 <a href="#skill" className="flex items-center hover:text-blue-500 transition-colors"
-                   onClick={adjustScroll}>
+                    onClick={adjustScroll}>
                     Skill
                 </a>
             </Typography>
@@ -77,7 +77,7 @@ function NavList() {
                 className="p-1 font-bold text-xl"
             >
                 <a href="#experience" className="flex items-center hover:text-blue-500 transition-colors"
-                   onClick={adjustScroll}>
+                    onClick={adjustScroll}>
                     Experience
                 </a>
             </Typography>

@@ -28,7 +28,7 @@ export function RevealCards() {
     return (
         <div className="mt-16 mb-8 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-transparent w-full gap-4 mx-auto px-8">
             <Card outText="Bachelor Degree" inText={ba} logo={"/GNU-logo.jpg"} size={150} />
-            <Card outText="Master Degree" inText={ms} logo={"/UON-logo.jpg"} size={300} />
+            <Card outText="Master Degree" inText={ms} logo={"/UoN-logo.jpg"} size={300} />
         </div>
     );
 }

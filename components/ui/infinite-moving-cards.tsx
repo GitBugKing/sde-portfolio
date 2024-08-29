@@ -4,12 +4,12 @@ import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
-                                        items,
-                                        direction = "left",
-                                        speed = "fast",
-                                        pauseOnHover = true,
-                                        className,
-                                    }: {
+    items,
+    direction = "left",
+    speed = "fast",
+    pauseOnHover = true,
+    className,
+}: {
     items: {
         quote: string[];
         name: string;
@@ -100,23 +100,23 @@ export const InfiniteMovingCards = ({
                                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
                             ></div>
                             <span className=" relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
-                                 {item.quote.map((ele) => {
-                                     return (
-                                         <div key={item.name}>
-                                             {ele}
-                                         </div>
-                                     )
-                                 })}
+                                {item.quote.map((ele) => {
+                                    return (
+                                        <div key={item.name}>
+                                            {ele}
+                                        </div>
+                                    )
+                                })}
                             </span>
                             <div className="relative z-20 mt-6 flex flex-row items-center">
-                <span className="flex flex-col gap-1">
-                  <span className=" text-sm leading-[1.6] font-normal">
-                    {item.name}
-                  </span>
-                  <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                    {item.title}
-                  </span>
-                </span>
+                                <span className="flex flex-col gap-1">
+                                    <span className=" text-sm leading-[1.6] font-normal">
+                                        {item.name}
+                                    </span>
+                                    <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
+                                        {item.title}
+                                    </span>
+                                </span>
                             </div>
                         </blockquote>
                     </li>
