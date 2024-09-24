@@ -6,34 +6,44 @@ import { TypewriterEffectSmooth } from "@/components/ui/typewrter-effect";
 const testimonials = [
     {
         quote:
-            ['Developed MVP version user-end business website, aiming to provide members with personalized nutrition recommendations by AI.'],
-        name: "Software Engineer, Daily Supplies, Vancouver",
-        title: "May, 2024 - Present",
+            ['●	Developed the MVP version of the AI-powered user-end business website applied React.js framework, which aims to provide members with personalized nutrition recommendations using AI',
+             '●	Utilized HTML, CSS and Typescript to develop and fix over 10 components in 5+ responsive landing pages',
+             '●	Implemented Figma UI/UX design using Material UI component library, increasing development efficiency by 30%',
+             '●	Collaborated with a Scrum-based team, managing code versioning and concurrent development using Git',
+             '●	Implemented the Order History feature, allowing users to track and view their past orders, improving user engagement',
+             '●	Optimized the Nav Bar feature for both desktop and mobile responsiveness, enhancing user interface functionality'],
+        name: " Grouppers, Vancouver",
+        title: "Full-stack Engineer,",
     },
     {
         quote:
-            ['● Completed the first milestone of development of a dating App for the target customers who need a safer dating platform.'],
-        name: "Software Engineer, Defend, Vancouver",
-        title: "May, 2023 - May, 2024",
+            ['● Leveraged data to drive insights that support clinical research, streamline the process of analyzing patient data and medication usage, and enable decision-makers to understand trends and outcomes, ultimately improving patient care',
+             '●	Implemented data cleaning including handle Missing Value, duplicates, and outliers using Python (Pandas, NumPy) to provide 3+ cleaned dataset to analyze effectiveness of medication, increasing data consistency by 17%',
+             '●	Performed ad-hoc analysis through extracting 400MB+ data from Caboodle database from EPIC system, optimized SQL queries which increasing executing speed by 20%'],
+        name: "Glocal Foundation, Inc, Vancouver",
+        title: "Sr. Data Engineer, Analytics",
     },
     {
         quote:
-            ['● Led a team of 3 data engineers and 3 projects in designing and implementing scalable data solutions to support various business functions. Discussed customer needs and documented their requirements for projects, ensuring all data solutions met customer expectations.'],
-        name: "Data Engineer Team Lead, Rainer Technology, Beijing",
-        title: "Oct, 2019 - Jun, 2021",
+            ['● Designed Customer Scoring System by segmenting and tagging customers using the RFM model, addressing data skewness through feature engineering to enhance segmentation accuracy and improve system performance',
+             '● Leveraged the Python Scikit-Learn library to forecast membership type sales by fitting models including ARIMA, SARIMA, Linear Regression, and Decision Tree, achieving 78% accuracy, with LR showing the best fit'],
+        name: "Defend Technology, Inc, Beijing",
+        title: "Data Engineer, Analytics II",
     },
     {
         quote:
-            ['● Managed BI dashboards showcase government key metrics, supporting management adjustment.',
-                '● Established data warehouses to ensure data consistency from business systems to dashboards, meeting the government data standards.'],
-        name: "BI Engineer, Huaxia Diantong IT, Beijing",
-        title: "Jun, 2019 - Oct, 2019",
+            ['● Achieved banking digital transformation and data ETL pipeline via stored procedures development in DB2',
+             '● Automate data loading and logging processes through Shell scripts resulting in 1 FTE saving'],
+        name: "Rainer Technology, Inc, Beijing",
+        title: "Data Engineer, Analytics I",
     },
     {
         quote:
-            ['● Led a team of 2 student developers in developing and optimizing university website, providing technical mentorship.'],
-        name: "Technical Support, Guangxi Normal University, Guilin",
-        title: "Jan, 2017 - May, 2019",
+            ['● Led a team of 2 student developers in developing and optimizing university website, providing technical mentorship.',
+             '● Developed and maintained MVC structure back-end code using SpringBoot framework, managing data in MySQL database'
+            ],
+        name: "Guangxi Normal University, Guilin",
+        title: "Web Developer",
     }
 ];
 

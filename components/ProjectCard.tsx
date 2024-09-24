@@ -5,22 +5,22 @@ import { ThreeDCardDemo } from "@/components/ThreeDCard";
 const ProjectCard = () => {
     const words = [{ text: "Project" }]
     const bank = {
-        title: "Bank Application",
-        desc: "Next.js framework, using APIs such as Plaid and Dwolla to implement bank account management and transfer functions.",
-        git: "https://github.com/ruizhili518/banking-app",
-        link: "https://banking-app-silk.vercel.app/sign-in"
+        title: "Daily Supplies - Frontend",
+        desc: "React.js framework, managed the user-end website including features Order History check, Order Status Management and Account Wish List.",
+        git: "https://github.com/Grouppers/supplements-website",
+        link: "#"
     }
     const bms = {
-        title: "Backstage System",
-        desc: "React.js framework, using ReChart to achieve data visualization. Manage store information, inventory, and operations all-in-one.",
-        git: "https://github.com/ruizhili518/BMS",
-        link: "https://bms-e54qjf8ux-ruizhili518s-projects.vercel.app/login"
+        title: "Daily Supplies - Backend",
+        desc: "Express.js framework to managed backend operations, including JWT to secure account management, processing product data in MongoDB and building RESTful APIs.",
+        git: "https://github.com/Grouppers/supplements-core",
+        link: "#"
     }
     const mac = {
-        title: "Mobile Order System",
-        desc: "React.js framework, a mobile order system. You can search for items, add to cart, and check out just like at a self-service kiosk.",
-        git: "https://github.com/ruizhili518/Mc_Order",
-        link: "https://mymcorder.netlify.app/"
+        title: "My Portfolio Site",
+        desc: "Next.js framework, displayed my experience and representative projects.",
+        git: "https://github.com/GitBugKing/sde-portfolio",
+        link: "#"
     }
 
     return (
@@ -31,13 +31,13 @@ const ProjectCard = () => {
             <TypewriterEffectSmooth words={words} />
             <div className="flex w-full items-center gap-8 justify-center">
                 <div className="w-1/3">
-                    <ThreeDCardDemo img={"/bank.png"} pro={bank} />
+                    <ThreeDCardDemo img={"/Daily_Supplies.jpg"} pro={bank} />
                 </div>
                 <div className="w-1/3">
-                    <ThreeDCardDemo img={"/bms.png"} pro={bms} />
+                    <ThreeDCardDemo img={"/Daily_Supplies_2.jpg"} pro={bms} />
                 </div>
                 <div className="w-1/3">
-                    <ThreeDCardDemo img={"/mac.jpg"} pro={mac} />
+                    <ThreeDCardDemo img={"/sde-site.png"} pro={mac} />
                 </div>
             </div>
         </div>
