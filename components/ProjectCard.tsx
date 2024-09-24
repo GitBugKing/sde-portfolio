@@ -20,7 +20,7 @@ const ProjectCard = () => {
         title: "My Portfolio Site",
         desc: "Next.js framework, displayed my experience and representative projects.",
         git: "https://github.com/GitBugKing/sde-portfolio",
-        link: "#"
+        link: "https://git-bug-king-github-io.vercel.app/"
     }
 
     return (
